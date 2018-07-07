@@ -1,9 +1,15 @@
 # Tour-Planner
 This is an android application to plan tour inside pakistan and backed is based on Firebase.
+- Email authentication
+- Generate Favorite Packages
+- Builden Packages
+- Buy thorugh token no
+- Cancell your tour packages
+- Google map
 for more information contact me: erfanali2012@gmail.com
 
 The Server of the application is also android based.
-Server Code:
+Server Code: https://github.com/AndroidTeach/Tour-Planner-Server
 
 ![screenshot_20171218-221436](https://user-images.githubusercontent.com/40911364/42409380-2bfce164-81f3-11e8-8b36-7c4e9fa95af2.png)
 ![screenshot_20171218-221439](https://user-images.githubusercontent.com/40911364/42409381-2c453446-81f3-11e8-9ec6-6ca488c8a95e.png)
