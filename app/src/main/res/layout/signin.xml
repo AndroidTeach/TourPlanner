@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.sultani.erfan.tp.Signin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+           android:layout_centerInParent="true"
+        android:orientation="vertical"
+
+        android:id="@+id/linearLayout2">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editphnumber"
+            android:hint="Phone Number"
+            android:textColorHint="@color/white"
+
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:inputType="phone"
+
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@color/colorAccent"
+            app:met_singleLineEllipsis="true"/>
+
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editpassword"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@color/colorAccent"
+            app:met_singleLineEllipsis="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/ckbRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:layout_gravity="center_vertical"
+
+
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            >
+
+
+            <TextView
+
+                android:id="@+id/txtForgetPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="Forget Password"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+
+        android:layout_alignParentBottom="true"
+        android:text="Sign In"
+        android:id="@+id/btnsignin"
+
+        android:textColor="@android:color/white"
+        app:shadowColor="@android:color/black"
+        android:layout_margin="15dp"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        app:cornerRadius="5dp"
+        app:buttonColor="@color/signin"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/icon_back"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

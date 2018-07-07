@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "657855420815",
+    "firebase_url": "https://tour-1e86a.firebaseio.com",
+    "project_id": "tour-1e86a",
+    "storage_bucket": "tour-1e86a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657855420815:android:ae62962e025a4e50",
+        "android_client_info": {
+          "package_name": "com.sultani.erfan.tp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657855420815-s75jr8f7t338tarplqamc051oq6tosav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sultani.erfan.tp",
+            "certificate_hash": "569e60351a01c6b8acd63cf39d41a0a7ed793d9e"
+          }
+        },
+        {
+          "client_id": "657855420815-31j0hkn21pim2p3r9jv7uqtt3lacrfu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdpNWqnZdKVlwb8Lp0qdvgtL5xV1b1P0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657855420815-31j0hkn21pim2p3r9jv7uqtt3lacrfu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

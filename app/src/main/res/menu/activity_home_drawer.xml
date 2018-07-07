@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/genratepack"
+            android:icon="@drawable/ic_genrate_package"
+            android:iconTint="@color/white"
+            android:title="Genrate Package" />
+        <item
+            android:id="@+id/listpack"
+            android:icon="@drawable/ic_packages"
+            android:iconTint="@color/white"
+            android:title="Packages" />
+        <item
+            android:id="@+id/mapsgoogle"
+            android:icon="@drawable/ic_map"
+            android:iconTint="@color/white"
+            android:title="Map" />
+
+
+
+        <item
+            android:id="@+id/shoppingcart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/favoritePackintent"
+            android:icon="@drawable/hearticon"
+            android:iconTint="@color/white"
+            android:title="Favorite Package" />
+
+        <item
+            android:id="@+id/shoppingorder"
+            android:icon="@drawable/paid_money"
+            android:iconTint="@color/white"
+            android:title="Billing" />
+
+
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_signout"
+            android:iconTint="@color/white"
+            android:title="Sign Out" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/fav_image"
+            android:src="@drawable/backtt"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/favName_layout"
+
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/favicon"
+            android:foregroundGravity="left"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView3" />
+
+
+
+
+
+  <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/favName_layout"
+
+      >
+      <TextView
+          android:id="@+id/fav_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Package name"
+          android:textColor="@color/colorAccent"
+          android:textSize="18sp"
+          android:gravity="center"/>
+
+
+  </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@+id/fav_image"
+            android:id="@+id/fav_card"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            app:cardElevation="12dp"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/p_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs"
+                        android:layout_marginLeft="20dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/fav_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Days"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="55dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/fav_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Days"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="30dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/fav_payemnt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pyment"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@+id/fav_card"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardElevation="12dp"
+            >
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                    <TextView
+
+                        android:id="@+id/details_favorite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:textColor="@color/colorAccent"
+                        android:layout_marginTop="2dp"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:text="Details"
+                         />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

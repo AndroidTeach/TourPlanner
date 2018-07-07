@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/menu_image"
+            android:src="@drawable/backtt"
+            android:scaleType="centerCrop"
+
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="187dp" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/menu_image">
+
+            <TextView
+                android:padding="6dp"
+                android:id="@+id/menu_name"
+                android:background="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Name of Package"
+
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

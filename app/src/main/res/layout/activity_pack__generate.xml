@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FAFAFA"
+
+    tools:context="com.sultani.erfan.tp.PackList">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        ></android.support.v7.widget.Toolbar>
+
+<LinearLayout
+    android:id="@+id/layout_linear"
+    android:layout_below="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:orientation="vertical"
+    android:layout_marginTop="3dp"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName"
+
+        android:textSize="18sp"
+        android:textColor="#00897B"
+        android:hint="Place Name (kashmir)"
+        />
+
+   
+
+   <com.weiwangcn.betterspinner.library.BetterSpinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/spinnerprice"
+       android:hint="Price"
+
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="10dp"
+       android:textColor="#00897B"
+       />
+
+    <com.weiwangcn.betterspinner.library.BetterSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerdays"
+        android:hint="Days"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#00897B"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/genBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/signin"
+        android:text="Generate Package"
+
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/layout_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_price"
+        android:padding="3dp"
+        android:scrollbars="vertical"
+        />
+
+
+
+
+
+</RelativeLayout>

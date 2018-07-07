@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.android\build-cache\ae904447fbb1e407f261b8da6961d8e0e1b4d7aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b8399b3ef86b9fe9fbfb2171bb6560ff3c49d468">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa084e46f122486751bb2f944520d0d32ffac22f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="cae8b24571f213cf6a63a4aafffc9e8b735eefe5">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d50161ba7fe12f13c62f9a00bca20454fe938c41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.android\build-cache\0127013e179e835d229b749cd81b0b511a121b7a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9edca01c4d7efcd7b7d06c1c433b660d6ab754b2">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d9d5dd0c740c9138e28e1401ae40ecf2b41be4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.gradle\caches\modules-2\files-2.1\de.javakaffee\kryo-serializers\0.40\562cb61898302da4e8d3fd141c821edb1bc6b36d\kryo-serializers-0.40.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="562cb61898302da4e8d3fd141c821edb1bc6b36d">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\kryo-serializers-0.40_f1d76bbb0465a164918f0c967191a5a22776b5ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.5.1\272bab9a4e5994757044d1fc43ce480c8cb907a4\objenesis-2.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="272bab9a4e5994757044d1fc43ce480c8cb907a4">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\objenesis-2.5.1_e74a05bf5a50936560b040f2a930b741e50ae044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.gradle\caches\modules-2\files-2.1\com.esotericsoftware\minlog\1.3.0\ff07b5f1b01d2f92bb00a337f9a94873712f0827\minlog-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ff07b5f1b01d2f92bb00a337f9a94873712f0827">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\minlog-1.3.0_3abe27d5da5aec9c9f6c03321523bb8693e92e30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.gradle\caches\modules-2\files-2.1\com.esotericsoftware\kryo\4.0.1\5053899c213a6ce50a800d4902c5a9de49fe0098\kryo-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5053899c213a6ce50a800d4902c5a9de49fe0098">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\kryo-4.0.1_8747e21422a9d4916105e42bbda3c403851203c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.android\build-cache\3f7710edda226d573c669da7f7e615907f0beb44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8419191d25f4105772fc16b55a005a270cb4d4c8">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8d2e19892ef3d7afb71b0824b8b6cbef6953a31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_57ff877ccb89c733572af903fd819cfd6c8c958e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Erfan\.gradle\caches\modules-2\files-2.1\com.esotericsoftware\reflectasm\1.11.3\8b102eed2f12412b254946811111ea48bc03a266\reflectasm-1.11.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8b102eed2f12412b254946811111ea48bc03a266">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\reflectasm-1.11.3_c508bb215b099fb3632f4fb2a55aadb0e0f48c02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0da08b8cce7bbf903602a25a3a163ae252435795">
+        <dex dex="C:\Users\Erfan\AndroidStudioProjects\TP\app\build\intermediates\transforms\dex\debug\folders\1000\10\asm-5.0.4_541b317e0f1f90b3930d4c6960a5435f203bccd6\classes.dex" />
+    </item>
+
+</items>
