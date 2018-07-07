@@ -7,7 +7,8 @@ This is an android application to plan tour inside pakistan and backed is based 
 - Cancell your tour packages
 - Google map
 - Search Packages
-for more information contact me: erfanali2012@gmail.com
+
+For more information contact me: erfanali2012@gmail.com
 
 The Server of the application is also android based.
 Server Code: https://github.com/AndroidTeach/Tour-Planner-Server
